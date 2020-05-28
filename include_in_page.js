@@ -13,4 +13,5 @@ window.setTimeout(function(){
   var list = document.getElementsByClassName("wpcf7-field-group-add");
   for (var i=0, item; item = list[i]; i++) {
     item.addEventListener("click",delay_dtp_init, true); //set true to allow listerer to be added in capturing phase
+  }
 },300) //set delay time to allow page to fully load
